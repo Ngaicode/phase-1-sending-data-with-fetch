@@ -22,3 +22,4 @@ const submitData = function (name, email) {
       document.body.innerHTML = error.message;
     });
 };
+submitData("kevin", "anonymous@gmail.com");
